@@ -36,11 +36,10 @@ with st.sidebar:
     This app is an LLM-powered chatbot built using:
     - [Streamlit](https://streamlit.io/)
     - [LangChain](https://python.langchain.com/)
-    - [LocalGPT](https://github.com/PromtEngineer/localGPT) 
  
     ''')
     add_vertical_space(5)
-    st.write('Made with ❤️ by [Prompt Engineer](https://youtube.com/@engineerprompt)')
+    st.write('Made with ❤️ by [Saify Technologies](https://saifytech.com)')
 
 
 DEVICE_TYPE = "cuda" if torch.cuda.is_available() else "cpu"
@@ -94,7 +93,7 @@ if "QA" not in st.session_state:
     )
     st.session_state["QA"] = QA
 
-st.title('LocalGPT App 💬')
+st.title('SaifyTech App 💬')
     # Create a text input box for the user
 prompt = st.text_input('Input your prompt here')
 # while True:
