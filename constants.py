@@ -38,7 +38,7 @@ DOCUMENT_MAP = {
 }
 
 # Default Instructor Model
-EMBEDDING_MODEL_NAME = "hkunlp/instructor-large" # Uses 1.5 GB of VRAM (High Accuracy with lower VRAM usage)
+# EMBEDDING_MODEL_NAME = "hkunlp/instructor-large" # Uses 1.5 GB of VRAM (High Accuracy with lower VRAM usage)
 
 ####
 #### OTHER EMBEDDING MODEL OPTIONS
@@ -53,7 +53,7 @@ EMBEDDING_MODEL_NAME = "hkunlp/instructor-large" # Uses 1.5 GB of VRAM (High Acc
 #### MULTILINGUAL EMBEDDING MODELS
 ####
 
-# EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large" # Uses 2.5 GB of VRAM 
+EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large" # Uses 2.5 GB of VRAM 
 # EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-base" # Uses 1.2 GB of VRAM 
 
 
@@ -73,8 +73,11 @@ EMBEDDING_MODEL_NAME = "hkunlp/instructor-large" # Uses 1.5 GB of VRAM (High Acc
 # MODEL_ID = "TheBloke/Llama-2-7B-Chat-GGML"
 # MODEL_BASENAME = "llama-2-7b-chat.ggmlv3.q4_0.bin"
 
-MODEL_ID = "TheBloke/Llama-2-7b-Chat-GPTQ"
-MODEL_BASENAME = "model.safetensors"
+# MODEL_ID = "TheBloke/Llama-2-7b-Chat-GPTQ"
+# MODEL_BASENAME = "model.safetensors"
+
+MODEL_ID = "asas-ai/jais-13b-chat-8bit"
+MODEL_BASENAME = None
 
 ####
 #### (FOR HF MODELS)

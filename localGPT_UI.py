@@ -95,7 +95,7 @@ if "QA" not in st.session_state:
 
 st.title('SaifyTech App 💬')
     # Create a text input box for the user
-prompt = st.text_input('Input your prompt here')
+prompt = st.text_input('Input your text here')
 # while True:
 
     # If the user hits enter
