@@ -95,6 +95,7 @@ def load_model(device_type, model_id, model_basename=None):
             model_id,
             device_map="auto",
             torch_dtype=torch.float16,
+            load_in_8bit=True,
             low_cpu_mem_usage=True,
             trust_remote_code=True,
             # max_memory={0: "15GB"} # Uncomment this line with you encounter CUDA out of memory errors
