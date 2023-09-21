@@ -76,7 +76,7 @@ EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large" # Uses 2.5 GB of VRAM
 # MODEL_ID = "TheBloke/Llama-2-7b-Chat-GPTQ"
 # MODEL_BASENAME = "model.safetensors"
 
-MODEL_ID = "asas-ai/jais-13b-chat-8bit"
+MODEL_ID = "inception-mbzuai/jais-13b-chat"
 MODEL_BASENAME = None
 
 ####
