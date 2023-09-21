@@ -30,4 +30,5 @@ Streamlit-extras
 
 # Excel File Manipulation
 openpyxl
-torch==2.0.1+cu117 torchvision==0.15.2+cu117 -f https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.1+cu117 
+torchvision==0.15.2+cu117 -f https://download.pytorch.org/whl/torch_stable.html
