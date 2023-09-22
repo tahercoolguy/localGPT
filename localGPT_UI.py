@@ -30,12 +30,12 @@ def model_memory():
 
 # Sidebar contents
 with st.sidebar:
-    st.title('🤗💬 Converse with your Data')
+    st.title('🤗💬 Converse with MUHAMI AI')
     st.markdown('''
     ## About
-    This app is an LLM-powered chatbot built using:
-    - [Streamlit](https://streamlit.io/)
-    - [LangChain](https://python.langchain.com/)
+    This app is JAIS Powered System:
+    
+    JAIS Large Language model:
  
     ''')
     add_vertical_space(5)
@@ -93,7 +93,7 @@ if "QA" not in st.session_state:
     )
     st.session_state["QA"] = QA
 
-st.title('SaifyTech App 💬')
+st.title('MUHAMI AI App 💬')
     # Create a text input box for the user
 prompt = st.text_input('Input your text here')
 # while True:
@@ -107,7 +107,7 @@ if prompt:
     st.write(answer)
 
     # With a streamlit expander  
-    with st.expander('Document Similarity Search'):
+    with st.expander('Documents Referred'):
         # Find the relevant pages
         search = st.session_state.DB.similarity_search_with_score(prompt) 
         # Write out the first
