@@ -33,9 +33,9 @@ with st.sidebar:
     st.title('🤗💬 Converse with MUHAMI AI')
     st.markdown('''
     ## About
-    This app is JAIS Powered System:
+    This app is LLM Powered System:
     
-    JAIS Large Language model:
+
  
     ''')
     add_vertical_space(5)
