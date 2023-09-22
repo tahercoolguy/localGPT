@@ -30,16 +30,15 @@ def model_memory():
 
 # Sidebar contents
 with st.sidebar:
-    st.title('🤗💬 Converse with MUHAMI AI')
+    st.title('🤗💬 تحدث مع المحامي AI')
     st.markdown('''
     ## About
-    This app is LLM Powered System:
+    هذا التطبيق هو نظام مدعوم بنموذج لغة كبير:
     
-
  
     ''')
     add_vertical_space(5)
-    st.write('Made with ❤️ by [Saify Technologies](https://saifytech.com)')
+    st.write('مصنوع بواسطة ❤️ بواسطة [Saify Technologies](https://saifytech.com)')
 
 
 DEVICE_TYPE = "cuda" if torch.cuda.is_available() else "cpu"
@@ -93,9 +92,9 @@ if "QA" not in st.session_state:
     )
     st.session_state["QA"] = QA
 
-st.title('MUHAMI AI App 💬')
+st.title('تطبيق المحامي AI 💬')
     # Create a text input box for the user
-prompt = st.text_input('Input your text here')
+prompt = st.text_input('أدخل النص هنا')
 # while True:
 
     # If the user hits enter
